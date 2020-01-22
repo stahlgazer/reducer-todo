@@ -35,6 +35,9 @@ export const reducer = (state, action) => {
           return todo;
         }
       });
+    case "REMOVE_TODO":
+      return state.filter(todo => !todo.completed);
+      
     default:
       return state;
   }
