@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import { reducer } from "../reducers/reducer";
 
 const TodoForm = props => {
   const [state, setState] = useState("");

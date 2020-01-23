@@ -1,5 +1,3 @@
-import { useReducer } from "react";
-
 export const initialState = [
   {
     item: "Learn about reducers",

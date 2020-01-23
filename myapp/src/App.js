@@ -1,4 +1,4 @@
-import React, { useState, useReducer } from "react";
+import React, { useReducer } from "react";
 import TodoList from "./components/TodoList";
 import TodoForm from "./components/TodoForm";
 import { initialState, reducer } from "./reducers/reducer";
