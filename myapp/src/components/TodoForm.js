@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Button } from "reactstrap";
 
 const TodoForm = props => {
   const [state, setState] = useState("");
@@ -16,17 +17,24 @@ const TodoForm = props => {
   const removeTodo = e => {
     e.preventDefault();
     props.dispatch({ type: "REMOVE_TODO", payload: state });
-
   };
 
   return (
     <form>
       {/* This is an uncontrolled component 😬 We want it to be controlled by state */}
-      <input type="text" name="item" value={state} onChange={handleChanges} />
-      <button onClick={addTodo}>Add</button>
-      <button onClick={removeTodo}>
+      <input
+        className="forminput"
+        type="text"
+        name="item"
+        value={state}
+        onChange={handleChanges}
+      />
+      <Button color="success" className="formbutton" onClick={addTodo}>
+        Add
+      </Button>
+      <Button color="danger" className="formbutton" onClick={removeTodo}>
         Clear Completed Tasks!
-      </button>
+      </Button>
     </form>
   );
 };

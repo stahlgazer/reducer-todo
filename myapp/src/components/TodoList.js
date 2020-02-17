@@ -5,9 +5,9 @@ const TodoList = props => {
   console.log(props.todos, "my todolist props");
 
   return (
-    <div>
+    <div className="todos">
       {props.todos.map(item => (
-        <Item key={item.id} item={item} dispatch={props.dispatch} />
+        <Item className="todo" key={item.id} item={item} dispatch={props.dispatch} />
       ))}
     </div>
   );
