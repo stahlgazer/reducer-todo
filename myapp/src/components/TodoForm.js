@@ -21,7 +21,6 @@ const TodoForm = props => {
 
   return (
     <form>
-      {/* This is an uncontrolled component 😬 We want it to be controlled by state */}
       <input
         className="forminput"
         type="text"

@@ -21,14 +21,14 @@
 .item.completed {
   background-color: #39c48e;
   text-decoration: line-through;
-
 }
 
 .formbutton {
-margin:2%;
+margin:1.5% 1%;
 }
 
 .todos{
   margin:0 auto;
   margin-top:2.5%;
+  max-width:50%;
 }
