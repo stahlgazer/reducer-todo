@@ -10,7 +10,7 @@ const TodoForm = props => {
 
   const addTodo = e => {
     console.log(newTodo, "this is newTodo in todo form");
-    console.log(props.newTodo, "this is props.newTodo");
+    console.log(props.todos, "this is props.todos");
     e.preventDefault();
     props.dispatch({ type: "ADD_TODO", payload: newTodo });
     setNewTodo("");
