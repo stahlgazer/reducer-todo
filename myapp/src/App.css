@@ -6,25 +6,23 @@
 }
 
 .App-header {
-  background-color: #697080;
   font-size: calc(10px + 2vmin);
-  background: -webkit-linear-gradient(#eee, #333);
 }
 .App-header h1{
-    font-size: 72px;
-    background: -webkit-linear-gradient(rgb(146, 142, 142), rgb(51, 104, 219));
+    font-size: 2.5rem;
+    background: -webkit-linear-gradient(rgb(86, 67, 255),rgb(171, 172, 218), rgb(25, 182, 255));
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
 .item.completed {
-  background-color: #39c48e;
+  background-color: rgb(25, 182, 255);
   text-decoration: line-through;
 }
 
 .formbutton {
-margin:1.5% 1%;
+margin:.5% 1%;
 }
 
 .todos{
@@ -32,7 +30,8 @@ margin:1.5% 1%;
   max-width:25%;
 }
 .item {
-  border:1px solid black;
-  margin:2%;
+  border:2px solid rgb(25, 182, 255);
+  border-radius:10px;
+  margin:3%;
   box-shadow:5px 5px 5px black;
 }

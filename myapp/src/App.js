@@ -12,7 +12,7 @@ function App() {
     <div className="App">
       <div className="App-header">
         <h1>Todo List</h1>
-        <TodoForm dispatch={dispatch} />
+        <TodoForm dispatch={dispatch} todos={state}/>
       </div>
       <TodoList todos={state} dispatch={dispatch} />
     </div>
