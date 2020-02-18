@@ -9,10 +9,20 @@ const Item = props => {
     console.log(props.item, "props in todo.js");
   };
 
+  // const checked = () => {
+
+  // }
 
   return (
-    <div onClick={handleChange} className={`item${props.item.completed ? ' completed' : ''}`}>
-      <p><input type="checkbox"/> {props.item.item}</p>
+    <div
+      onClick={handleChange}
+      className={`item${props.item.completed ? " completed" : ""}`}
+    >
+      <div>
+      <p>
+        <input type="checkbox" /> {props.item.item}
+      </p>
+      </div>
     </div>
   );
 };
