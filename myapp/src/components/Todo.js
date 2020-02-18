@@ -11,8 +11,8 @@ const Item = props => {
 
 
   return (
-    <div className={`item${props.item.completed ? ' completed' : ''}`}>
-      <p onClick={handleChange}>{props.item.item}</p>
+    <div onClick={handleChange} className={`item${props.item.completed ? ' completed' : ''}`}>
+      <p >{props.item.item}</p>
     </div>
   );
 };

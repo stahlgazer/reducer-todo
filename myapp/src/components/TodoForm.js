@@ -31,7 +31,7 @@ const TodoForm = props => {
         onChange={handleChanges}
       />
       <Button color="success" className="formbutton" onClick={addTodo}>
-        Add
+        Add New Task
       </Button>
       <Button color="danger" className="formbutton" onClick={removeTodo}>
         Clear Completed Tasks!
