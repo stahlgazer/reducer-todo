@@ -30,10 +30,10 @@ const TodoForm = props => {
         value={newTodo}
         onChange={handleChanges}
       />
-      <Button color="success" className="formbutton" onClick={addTodo}>
+      <Button color="info" className="formbutton" onClick={addTodo}>
         Add New Task
       </Button>
-      <Button color="danger" className="formbutton" onClick={removeTodo}>
+      <Button color="success" className="formbutton" onClick={removeTodo}>
         Clear Completed Tasks!
       </Button>
     </form>

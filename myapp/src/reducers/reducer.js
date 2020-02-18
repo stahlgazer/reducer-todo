@@ -8,6 +8,11 @@ export const initialState = [
     item: "Use some reducers",
     completed: false,
     id: 3892987590
+  },
+  {
+    item: "Master the reducers",
+    completed: false,
+    id: 3892987591
   }
 ];
 
@@ -35,7 +40,7 @@ export const reducer = (state, action) => {
       });
     case "REMOVE_TODO":
       return state.filter(todo => !todo.completed);
-      
+
     default:
       return state;
   }

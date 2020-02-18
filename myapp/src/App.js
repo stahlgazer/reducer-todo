@@ -11,7 +11,7 @@ function App() {
   return (
     <div className="App">
       <div className="App-header">
-        <h1>Todo List</h1>
+        <h1>Todo List App</h1>
         <TodoForm dispatch={dispatch} todos={state}/>
       </div>
       <TodoList todos={state} dispatch={dispatch} />
