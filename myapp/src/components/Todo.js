@@ -12,7 +12,7 @@ const Item = props => {
 
   return (
     <div onClick={handleChange} className={`item${props.item.completed ? ' completed' : ''}`}>
-      <p >{props.item.item}</p>
+      <p><input type="checkbox"/> {props.item.item}</p>
     </div>
   );
 };
