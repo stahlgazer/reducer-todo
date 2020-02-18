@@ -22,12 +22,12 @@
 }
 
 .formbutton {
-margin:.5% 1%;
+margin:1% 1%;
 }
 
 .todos{
   margin:0 auto;
-  max-width:25%;
+  max-width:50%;
 }
 .item {
   border:2px solid rgb(25, 182, 255);
